@@ -1,11 +1,11 @@
-<img src=images/main.png>Docker</img>
+<img src=images/main.png></img>
 <b>I have completed my DOCKER  project which is based on the Load Balancer…..
     Lets Take you in depth of LOAD BALANCING:------------------------</b> 
 
 <h2>What is  Load Balancing ?</h2>
-   <img src=images/jo.jpg height=200px width=700px>Intro</img>
+   <img src=images/jo.jpg height=200px width=700px></img>
 <h3>Let Here is the two containers (A and B) which have same clients and also 
-providing services but as ;Client 1  Wants to access that services then 
+providing services but as; Client 1  Wants to access that services then 
 it render to the container A….When Client 2 Access the same service then 
 it redirected to the container B ….After some time Client 3  come and access
 that same  service  then he redirected to container A…… 
@@ -31,7 +31,7 @@ For the Load Balancing we have many ALGORITHMS but the famous one is ROUND ROBIN
     <h2>
         Implementation
     </h2>
-    <img src=images/main1.png>Load-Balancer</img>
+    <img src=images/main1.png></img>
     <h4>
 But Here In this project I without the use of any software or Devices I used an 
 trick of DNS Server(This will work as Load balancer for us) ..
