@@ -13,20 +13,21 @@ Why we need load balancing ?
 We need Load Balancing to maintain the loads on the server .
 Usage: 
 Lets take an Example of the Google …
-  So ,Google have thousand ‘s of webserver or thousand’s of IP’s and all the IP’s What are they have those are put exactly same in website ! But as we are  the client we never type the different-different type of the IP of the GOOGLE !!
- We just go on the Browser and search directly for (www.google.com) . Now the whole scenario will use only one type of the system called LOAD-BALANCER.
+  So ,Google have thousand ‘s of webserver or thousand’s of IP’s and all the IP’s 
+ What are they have those are put exactly same in website ! But as we are  the client
+ we never type the different-different type of the IP of the GOOGLE !!We just go on the Browser and search directly for (www.google.com) . Now the whole scenario will use only one type of the system called LOAD-BALANCER.
 When we  type (www.google.com) so, we directly hit  the google internal LOAD BALANCER & Balancer will maintain there System of load……    
 <h4>
 For the Load Balancing we have many ALGORITHMS but the famous one is ROUND ROBIN….
 But Here In this project I without the use of any software or Devices I used an  trick of DNS Server(This will work as Load balancer for us) ..
-First I created  our own Docker Network with use of the Driver called BRIDGE….. 
+ First I created  our own Docker Network with use of the Driver called BRIDGE….. 
  and Lunch those CMS under this NETWORK …. And under 
  this network we have also attach every WebApp Containers with the 
- same Database which is storing data in every single bit… 
- We have also done one thing that without knowing the hostname or IP’s of our webserver or container 
- we have provided one unique name and our client will connect by the help of that unique name  and  
- that unique name will update the DNS. 
- Now Clients Have There Have three Choices : 
+ same Database which is storing data in every single bit… We have also done one thing that 
+ without knowing the hostname or IP’s of our webserver or container we have provided one unique name 
+ and our client will connect by the help of that unique name  and  that unique name will update the DNS. 
+
+Now Clients Have There Have three Choices : 
 1.	They can connect by the that unique name (network-alias).
 2.	They can connect by the HOSTNAME.
 3.	They can connect by the IP:Port No.  
