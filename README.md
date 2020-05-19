@@ -3,29 +3,36 @@
     Lets Take you in depth of LOAD BALANCING:------------------------</b> 
 
 <h2>What is  Load Balancing ?</h2>
-
+   <img src=images/jo.jpg height=200px width=700px>Intro</img>
 <h3>Let Here is the two containers (A and B) which have same clients and also 
-  providing services but as ;Client 1  Wants to access that services then 
- it render to the container A….When Client 2 Access the same service then 
- it redirected to the container B ….After some time Client 3  come and access
- that same  service  then he redirected to container A…… 
+providing services but as ;Client 1  Wants to access that services then 
+it render to the container A….When Client 2 Access the same service then 
+it redirected to the container B ….After some time Client 3  come and access
+that same  service  then he redirected to container A…… 
 <b><i>So, This Whole process is know as Load Balancing.</b></i> 
 <h2>
 Why we need load balancing ?
-  </h2>
+</h2>
+<h4>
+We need Load Balancing to maintain the loads on the server.
+</h4>
+<h2>Usage:</h2> 
  <h4>
-We need Load Balancing to maintain the loads on the server .
-Usage: 
-Lets take an Example of the Google …
-  So ,Google have thousand ‘s of webserver or thousand’s of IP’s and all the IP’s 
+ Lets take an Example of the Google …
+ So ,Google have thousand ‘s of webserver or thousand’s of IP’s and all the IP’s 
  What are they have those are put exactly same in website ! But as we are  the client
  we never type the different-different type of the IP of the GOOGLE !!
  We just go on the Browser and search directly for (www.google.com) . 
 Now the whole scenario will use only one type of the system called LOAD-BALANCER.
 When we  type (www.google.com) so, we directly hit  the google internal 
 LOAD BALANCER & Balancer will maintain there System of load……    
-
 For the Load Balancing we have many ALGORITHMS but the famous one is ROUND ROBIN….
+    </h4>
+    <h2>
+        Implementation
+    </h2>
+    <img src=images/main1.png>Load-Balancer</img>
+    <h4>
 But Here In this project I without the use of any software or Devices I used an 
 trick of DNS Server(This will work as Load balancer for us) ..
 First I created  our own Docker Network with use of the Driver called BRIDGE….. 
