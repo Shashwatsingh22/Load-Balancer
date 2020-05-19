@@ -1,13 +1,14 @@
 <b>I have completed my DOCKER  project which is based on the Load Balancer…..
     Lets Take you in depth of LOAD BALANCING:------------------------</b> 
-<pre>
+
 <h2>What is  Load Balancing ?</h2>
 
-<h3>Let Here is the two containers (A and B) which have same clients and also providing services but as ;
- Client 1  Wants to access that services then it render to the container A….
-When Client 2 Access the same service then it redirected to the container B ….
- After some time Client 3  come and access that same  service  then he redirected to container A…… 
-  <b><i>So, This Whole process is know as Load Balancing.</b></i> 
+<h3>Let Here is the two containers (A and B) which have same clients and also 
+  providing services but as ;Client 1  Wants to access that services then 
+ it render to the container A….When Client 2 Access the same service then 
+ it redirected to the container B ….After some time Client 3  come and access
+ that same  service  then he redirected to container A…… 
+<b><i>So, This Whole process is know as Load Balancing.</b></i> 
 <h2>
 Why we need load balancing ?
   </h2>
@@ -37,5 +38,4 @@ Now Clients Have There Have three Choices :
 1.	They can connect by the that unique name (network-alias).
 2.	They can connect by the HOSTNAME.
 3.	They can connect by the IP:Port No.  
-  </h4>
-  </pre>
+</h4>
