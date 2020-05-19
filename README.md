@@ -19,7 +19,13 @@ When we  type (www.google.com) so, we directly hit  the google internal LOAD BAL
 <h4>
 For the Load Balancing we have many ALGORITHMS but the famous one is ROUND ROBIN….
 But Here In this project I without the use of any software or Devices I used an  trick of DNS Server(This will work as Load balancer for us) ..
-First I created  our own Docker Network with use of the Driver called BRIDGE….. and Lunch those CMS under this NETWORK …. And under this network we have also attach every WebApp Containers with the same Database which is storing data in every single bit… We have also done one thing that without knowing the hostname or IP’s of our webserver or container we have provided one unique name and our client will connect by the help of that unique name  and  that unique name will update the DNS. 
+First I created  our own Docker Network with use of the Driver called BRIDGE….. 
+ and Lunch those CMS under this NETWORK …. And under 
+ this network we have also attach every WebApp Containers with the 
+ same Database which is storing data in every single bit… 
+ We have also done one thing that without knowing the hostname or IP’s of our webserver or container 
+ we have provided one unique name and our client will connect by the help of that unique name  and  
+ that unique name will update the DNS. 
  Now Clients Have There Have three Choices : 
 1.	They can connect by the that unique name (network-alias).
 2.	They can connect by the HOSTNAME.
