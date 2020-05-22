@@ -47,3 +47,12 @@ Now Clients Have There Have three Choices :
 2.	They can connect by the HOSTNAME.
 3.	They can connect by the IP:Port No.  
 </h4>
+
+<h2> Now Lets See How you can use this project ? </h2>
+<pre><p> First Clone This Project From the GitHub by the Command .....
+<b> $ git clone https://github.com/Shashwatsingh22/Load-Balancer.git </b></p></pre>
+
+<pre><p> How to Run this ?....
+<b> $ python3 main.py </b></pre></p>
+
+<pre><p><b> Now You Can Easily Proceed Your Work Easily.... </b></p></pre>
