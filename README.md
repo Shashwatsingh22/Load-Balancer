@@ -33,7 +33,7 @@ For the Load Balancing we have many ALGORITHMS but the famous one is ROUND ROBIN
     </h2>
     <img src=images/main1.png></img>
     <h4>
-But Here In this project I without the use of any software or Devices I used an 
+But Here In this project, without the use of any software or Devices I used an 
 trick of DNS Server(This will work as Load balancer for us) ..
 First I created  our own Docker Network with use of the Driver called BRIDGE….. 
 and Lunch those CMS under this NETWORK …. And under 
